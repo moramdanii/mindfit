@@ -98,7 +98,7 @@
 
   <!-- Section Title -->
   <div class="container section-title text-center mb-5">
-    <h2 class="fw-bold">Services MindFit</h2>
+    <h2 class="fw-bold">Fitur MindFit</h2>
     <p class="text-muted">Temukan berbagai fitur menarik untuk memahami diri dan menjaga kesehatanmu dengan cara yang seru dan mudah.</p>
   </div>
 
@@ -442,248 +442,264 @@
     <!-- Faq Section -->
     <section id="faq" class="faq section">
 
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Frequently Asked Questions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title">
+    <h2>Pertanyaan yang Sering Diajukan</h2>
+    <p>Beberapa pertanyaan umum seputar penggunaan dan fitur MindFit.</p>
+  </div><!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-9">
 
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
+        <div class="faq-wrapper">
 
-            <div class="faq-wrapper">
-
-              <div class="faq-item faq-active">
-                <div class="faq-header">
-                  <span class="faq-number">01</span>
-                  <h4>Donec sollicitudin molestie malesuada proin eget tortor?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item">
-                <div class="faq-header">
-                  <span class="faq-number">02</span>
-                  <h4>Sed porttitor lectus nibh vivamus magna justo?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item">
-                <div class="faq-header">
-                  <span class="faq-number">03</span>
-                  <h4>Pellentesque habitant morbi tristique senectus?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec sollicitudin molestie malesuada.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item">
-                <div class="faq-header">
-                  <span class="faq-number">04</span>
-                  <h4>Lorem ipsum dolor sit amet consectetur adipiscing?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
-              <div class="faq-item">
-                <div class="faq-header">
-                  <span class="faq-number">05</span>
-                  <h4>Curabitur aliquet quam id dui posuere blandit?</h4>
-                  <div class="faq-toggle">
-                    <i class="bi bi-plus"></i>
-                    <i class="bi bi-dash"></i>
-                  </div>
-                </div>
-                <div class="faq-content">
-                  <div class="content-inner">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.</p>
-                  </div>
-                </div>
-              </div><!-- End FAQ Item -->
-
+          <!-- FAQ 1 -->
+          <div class="faq-item faq-active">
+            <div class="faq-header">
+              <span class="faq-number">01</span>
+              <h4>Apa itu MindFit?</h4>
+              <div class="faq-toggle">
+                <i class="bi bi-plus"></i>
+                <i class="bi bi-dash"></i>
+              </div>
             </div>
+            <div class="faq-content">
+              <div class="content-inner">
+                <p>
+                  MindFit adalah website kesehatan yang membantu kamu mengenali diri sendiri dan menjaga keseimbangan hidup melalui fitur seperti tes MBTI, perhitungan berat & tinggi badan ideal, tes zodiak, dan prediksi siklus haid.
+                </p>
+              </div>
+            </div>
+          </div><!-- End FAQ Item -->
 
-          </div>
-        </div>
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-number">02</span>
+              <h4>Apakah semua fitur di MindFit gratis digunakan?</h4>
+              <div class="faq-toggle">
+                <i class="bi bi-plus"></i>
+                <i class="bi bi-dash"></i>
+              </div>
+            </div>
+            <div class="faq-content">
+              <div class="content-inner">
+                <p>
+                  Sebagian besar fitur MindFit dapat digunakan secara gratis. Namun, kami juga menyediakan paket premium seharga <strong>Rp9.000</strong> untuk akses penuh dengan fitur tambahan dan pengalaman bebas iklan.
+                </p>
+              </div>
+            </div>
+          </div><!-- End FAQ Item -->
 
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-number">03</span>
+              <h4>Bagaimana cara menghitung berat dan tinggi badan ideal?</h4>
+              <div class="faq-toggle">
+                <i class="bi bi-plus"></i>
+                <i class="bi bi-dash"></i>
+              </div>
+            </div>
+            <div class="faq-content">
+              <div class="content-inner">
+                <p>
+                  Cukup masukkan tinggi dan berat badanmu pada fitur <em>Berat & Tinggi Badan Ideal</em>, lalu sistem akan otomatis menghitung menggunakan rumus BMI (Body Mass Index) untuk memberikan hasil yang akurat.
+                </p>
+              </div>
+            </div>
+          </div><!-- End FAQ Item -->
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-number">04</span>
+              <h4>Apakah data pribadi saya aman di MindFit?</h4>
+              <div class="faq-toggle">
+                <i class="bi bi-plus"></i>
+                <i class="bi bi-dash"></i>
+              </div>
+            </div>
+            <div class="faq-content">
+              <div class="content-inner">
+                <p>
+                  Ya! MindFit menjaga privasi pengguna dengan serius. Semua data yang kamu masukkan hanya digunakan untuk perhitungan di dalam website dan tidak dibagikan ke pihak mana pun.
+                </p>
+              </div>
+            </div>
+          </div><!-- End FAQ Item -->
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <div class="faq-header">
+              <span class="faq-number">05</span>
+              <h4>Bagaimana cara memulai menggunakan MindFit?</h4>
+              <div class="faq-toggle">
+                <i class="bi bi-plus"></i>
+                <i class="bi bi-dash"></i>
+              </div>
+            </div>
+            <div class="faq-content">
+              <div class="content-inner">
+                <p>
+                  Kamu bisa langsung klik tombol <strong>“Start Journey”</strong> di halaman utama untuk mulai mencoba fitur-fitur MindFit tanpa harus login. Jika ingin menyimpan hasil tes, cukup daftar akun gratis.
+                </p>
+              </div>
+            </div>
+          </div><!-- End FAQ Item -->
+
+        </div><!-- End FAQ Wrapper -->
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Faq Section -->
+</section>
+<!-- /Faq Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+   <section id="contact" class="contact section">
 
-      <div class="container">
-        <div class="row align-items-stretch">
-          <div class="col-lg-7 order-lg-1 order-2">
-            <div class="contact-form-container">
-              <div class="form-intro">
-                <h2>Let's Start a Conversation</h2>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+  <!-- Section Title -->
+  <div class="container section-title">
+    <h2>Kontak Kami</h2>
+    <p>Punya pertanyaan atau saran? Kami senang mendengarnya! Hubungi tim MindFit untuk bantuan atau kerja sama.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row align-items-stretch">
+
+      <!-- Contact Form -->
+      <div class="col-lg-7 order-lg-1 order-2">
+        <div class="contact-form-container">
+          <div class="form-intro">
+            <h2>Kirim Pesan ke Kami</h2>
+            <p>
+              Isi formulir di bawah ini untuk menghubungi tim MindFit. Kami akan membalas secepatnya!
+            </p>
+          </div>
+
+          <form action="" method="POST" class="php-email-form contact-form">
+            @csrf
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-field">
+                  <input type="text" name="name" class="form-input" id="userName" placeholder="Nama Anda" required>
+                  <label for="userName" class="field-label">Nama</label>
+                </div>
               </div>
 
-              <form action="forms/contact.php" method="post" class="php-email-form contact-form">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="text" name="name" class="form-input" id="userName" placeholder="Your Name" required="">
-                      <label for="userName" class="field-label">Name</label>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="email" class="form-input" name="email" id="userEmail" placeholder="Your Email" required="">
-                      <label for="userEmail" class="field-label">Email</label>
-                    </div>
-                  </div>
+              <div class="col-md-6">
+                <div class="form-field">
+                  <input type="email" name="email" class="form-input" id="userEmail" placeholder="Email Anda" required>
+                  <label for="userEmail" class="field-label">Email</label>
                 </div>
+              </div>
+            </div>
 
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="tel" class="form-input" name="phone" id="userPhone" placeholder="Your Phone">
-                      <label for="userPhone" class="field-label">Phone</label>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-field">
-                      <input type="text" class="form-input" name="subject" id="messageSubject" placeholder="Subject" required="">
-                      <label for="messageSubject" class="field-label">Subject</label>
-                    </div>
-                  </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-field">
+                  <input type="tel" name="phone" class="form-input" id="userPhone" placeholder="Nomor Telepon">
+                  <label for="userPhone" class="field-label">Telepon</label>
                 </div>
+              </div>
 
-                <div class="form-field message-field">
-                  <textarea class="form-input message-input" name="message" id="userMessage" rows="5" placeholder="Tell us about your project" required=""></textarea>
-                  <label for="userMessage" class="field-label">Message</label>
+              <div class="col-md-6">
+                <div class="form-field">
+                  <input type="text" name="subject" class="form-input" id="messageSubject" placeholder="Subjek Pesan" required>
+                  <label for="messageSubject" class="field-label">Subjek</label>
                 </div>
+              </div>
+            </div>
 
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+            <div class="form-field message-field">
+              <textarea name="message" class="form-input message-input" id="userMessage" rows="5" placeholder="Tulis pesan Anda di sini..." required></textarea>
+              <label for="userMessage" class="field-label">Pesan</label>
+            </div>
 
-                <button type="submit" class="send-button">
-                  Send Message
-                  <span class="button-arrow">→</span>
-                </button>
-              </form>
+            <div class="my-3">
+              <div class="loading">Sedang mengirim...</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Pesan Anda telah dikirim. Terima kasih!</div>
+            </div>
+
+            <button type="submit" class="send-button">
+              Kirim Pesan
+              <span class="button-arrow">→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info Sidebar -->
+      <div class="col-lg-5 order-lg-2 order-1">
+        <div class="contact-sidebar">
+          <div class="contact-header">
+            <h3>Hubungi Kami</h3>
+            <p>
+              Tim MindFit selalu terbuka untuk saran, kerja sama, atau pertanyaan seputar fitur kami.
+            </p>
+          </div>
+
+          <div class="contact-methods">
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div class="contact-details">
+                <span class="method-label">Alamat</span>
+                <p>Jl. Sehat No. 9, Bandung, Jawa Barat, Indonesia</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <span class="method-label">Email</span>
+                <p>support@mindfit.id</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="contact-details">
+                <span class="method-label">Telepon</span>
+                <p>+62 812 3456 7890</p>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon">
+                <i class="bi bi-clock"></i>
+              </div>
+              <div class="contact-details">
+                <span class="method-label">Jam Operasional</span>
+                <p>Senin - Jumat: 08.00 - 17.00<br>Sabtu: 09.00 - 14.00</p>
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-5 order-lg-2 order-1">
-            <div class="contact-sidebar">
-              <div class="contact-header">
-                <h3>Get in Touch</h3>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud.</p>
-              </div>
-
-              <div class="contact-methods">
-                <div class="contact-method">
-                  <div class="contact-icon">
-                    <i class="bi bi-geo-alt"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Address</span>
-                    <p>892 Park Avenue, Manhattan<br>New York, NY 10075</p>
-                  </div>
-                </div>
-
-                <div class="contact-method">
-                  <div class="contact-icon">
-                    <i class="bi bi-envelope"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Email</span>
-                    <p>hello@businessdemo.com</p>
-                  </div>
-                </div>
-
-                <div class="contact-method">
-                  <div class="contact-icon">
-                    <i class="bi bi-telephone"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Phone</span>
-                    <p>+1 (555) 789-2468</p>
-                  </div>
-                </div>
-
-                <div class="contact-method">
-                  <div class="contact-icon">
-                    <i class="bi bi-clock"></i>
-                  </div>
-                  <div class="contact-details">
-                    <span class="method-label">Hours</span>
-                    <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="connect-section">
-                <span class="connect-label">Connect with us</span>
-                <div class="social-links">
-                  <a href="#" class="social-link">
-                    <i class="bi bi-linkedin"></i>
-                  </a>
-                  <a href="#" class="social-link">
-                    <i class="bi bi-twitter-x"></i>
-                  </a>
-                  <a href="#" class="social-link">
-                    <i class="bi bi-instagram"></i>
-                  </a>
-                  <a href="#" class="social-link">
-                    <i class="bi bi-facebook"></i>
-                  </a>
-                </div>
-              </div>
+          <div class="connect-section">
+            <span class="connect-label">Ikuti Kami</span>
+            <div class="social-links">
+              <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-tiktok"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- /Contact Section -->
+      </div><!-- End Sidebar -->
+
+    </div>
+  </div>
+</section>
+<!-- /Contact Section -->
 
   </main>
 
