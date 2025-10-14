@@ -16,7 +16,7 @@
         <h1>Pahami Pikiranmu <span>Rawat Tubuhmu</span></h1>
         <p>Mind Fit membantumu mengenali diri dan menjaga keseimbangan antara pikiran serta tubuh untuk hidup lebih baik.</p>
         <div class="hero-actions justify-content-center justify-content-lg-start">
-          <a href="#services" class="btn-primary scrollto">Start Journey</a>
+          <a href="#services" class="btn-primary scrollto">Mulai Berlangganan</a>
         </div>
       </div>
     </div>
@@ -32,187 +32,148 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+   <section id="about" class="about section py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
 
-      <div class="container">
-
-        <div class="row align-items-center">
-
-          <!-- Image Column -->
-          <div class="col-lg-6">
-            <div class="about-image">
-              <img src="assets/img/about/about-portrait-4.webp" alt="About" class="img-fluid">
-            </div>
-          </div>
-
-          <!-- Content Column -->
-          <div class="col-lg-6">
-            <div class="content">
-              <h2>Crafting Excellence Through Innovation and Dedication</h2>
-              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-              <!-- Stats Row -->
-              <div class="stats-row">
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>+</h3>
-                  <p>Projects Completed</p>
-                </div>
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>+</h3>
-                  <p>Years Experience</p>
-                </div>
-                <div class="stat-item">
-                  <h3><span data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></span>%</h3>
-                  <p>Client Satisfaction</p>
-                </div>
-              </div><!-- End Stats Row -->
-
-              <!-- CTA Button -->
-              <div class="cta-wrapper">
-                <a href="#" class="btn-cta">
-                  <span>Discover Our Story</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-
-            </div>
-          </div>
-
+      <!-- Image Column -->
+      <div class="col-lg-6">
+        <div class="about-image text-center">
+          <img src="{{ asset('assets/img/illustration/illustration-77.png') }}"
+               alt="Tentang MindFit"
+               class="img-fluid rounded-4 shadow-sm"
+               style="max-height: 420px; object-fit: contain;">
         </div>
-
       </div>
 
-    </section><!-- /About Section -->
+      <!-- Content Column -->
+      <div class="col-lg-6 d-flex align-items-center">
+        <div class="content ps-lg-4">
+          <h2 class="fw-bold mb-3">Mengenal Diri dan Menjaga Kesehatan dengan <span class="text-primary">MindFit</span></h2>
+          <p class="lead text-muted mb-3">
+            Website ini dibuat untuk mengajak masyarakat, terutama anak muda, mulai menerapkan pola hidup sehat dan lebih mengenal diri sendiri.
+          </p>
+
+          <p class="text-muted mb-4">
+            Banyak anak muda yang masih bingung memahami diri, sering mengonsumsi makanan instan, dan tertarik pada hal-hal seperti zodiak.
+            Melalui website ini, kami menghadirkan fitur seperti tes MBTI, perhitungan berat dan tinggi badan ideal, tes zodiak, serta prediksi siklus haid.
+            Dengan fitur-fitur ini, kami berharap pengguna dapat mengenal kepribadian dan kondisi tubuh mereka dengan cara yang menarik, menyenangkan, dan bermanfaat.
+          </p>
+
+          <!-- Stats Row -->
+          <div class="row text-center g-3">
+            <div class="col-4">
+              <h3 class="fw-bold mb-0">
+                <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>+
+              </h3>
+              <p class="small text-muted mb-0">Health Tools</p>
+            </div>
+            <div class="col-4">
+              <h3 class="fw-bold mb-0">
+                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>%
+              </h3>
+              <p class="small text-muted mb-0">Focus on Well-being</p>
+            </div>
+            <div class="col-4">
+              <h3 class="fw-bold mb-0">
+                <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>+
+              </h3>
+              <p class="small text-muted mb-0">Users Inspired</p>
+            </div>
+          </div>
+          <!-- End Stats Row -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
 
 
     <!-- Features Section -->
-    <section id="services" class="features section">
+    <<section id="services" class="features section py-5">
 
-        <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title text-center mb-5">
+    <h2 class="fw-bold">Services MindFit</h2>
+    <p class="text-muted">Temukan berbagai fitur menarik untuk memahami diri dan menjaga kesehatanmu dengan cara yang seru dan mudah.</p>
+  </div>
 
-      <div class="container">
+  <div class="container">
+    <div class="row gy-5">
 
-        <div class="features-grid">
-          <div class="features-card">
-            <div class="icon-wrapper">
-              <i class="bi bi-laptop"></i>
-            </div>
-            <h3>Streamlined Workflow Solution</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            </p>
-            <div class="features-list">
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Integrated development environment</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Cloud-based collaborative tools</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Automated testing procedures</span>
-              </div>
-            </div>
-            <div class="image-container">
-              <img src="assets/img/illustration/illustration-14.webp" alt="Streamlined Workflow" class="img-fluid">
-            </div>
+      <!-- MBTI Test -->
+      <div class="col-md-6 col-lg-6">
+        <div class="features-card text-center p-4 shadow-sm rounded-4 h-100">
+          <div class="icon-wrapper mb-3 text-primary">
+            <i class="bi bi-person-bounding-box fs-1"></i>
           </div>
-
-          <div class="features-card">
-            <div class="icon-wrapper">
-              <i class="bi bi-graph-up"></i>
-            </div>
-            <h3>Performance Analytics</h3>
-            <p>
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel.
-            </p>
-            <div class="features-list">
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Real-time data visualization</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Custom report generation</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Predictive analysis models</span>
-              </div>
-            </div>
-            <div class="image-container">
-              <img src="assets/img/illustration/illustration-6.webp" alt="Performance Analytics" class="img-fluid">
-            </div>
-          </div>
-
-          <div class="features-card">
-            <div class="icon-wrapper">
-              <i class="bi bi-shield-lock"></i>
-            </div>
-            <h3>Enterprise Security Framework</h3>
-            <p>
-              Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.
-            </p>
-            <div class="features-list">
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Multi-factor authentication</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>End-to-end encryption standard</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Automated security audits</span>
-              </div>
-            </div>
-            <div class="image-container">
-              <img src="assets/img/illustration/illustration-7.webp" alt="Security Framework" class="img-fluid">
-            </div>
-          </div>
-
-          <div class="features-card">
-            <div class="icon-wrapper">
-              <i class="bi bi-people"></i>
-            </div>
-            <h3>Collaborative Team Environment</h3>
-            <p>
-              Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta.
-            </p>
-            <div class="features-list">
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Shared workspace functionality</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Real-time communication tools</span>
-              </div>
-              <div class="feature-item">
-                <i class="bi bi-check-circle-fill"></i>
-                <span>Progress tracking dashboards</span>
-              </div>
-            </div>
-            <div class="image-container">
-              <img src="assets/img/illustration/illustration-8.webp" alt="Team Environment" class="img-fluid">
-            </div>
+          <h3 class="fw-semibold">Tes Kepribadian MBTI</h3>
+          <p class="text-muted">
+            Kenali kepribadianmu lebih dalam dengan tes MBTI kami. Temukan tipe kepribadian dan cara terbaik memahami dirimu.
+          </p>
+          <div class="image-container mt-3">
+            <img src="{{ asset('assets/img/illustration/illustration-14.png') }}" alt="Tes MBTI" class="img-fluid rounded-3">
           </div>
         </div>
-
       </div>
 
-    </section><!-- /Features Section -->
+      <!-- Ideal Body Calculator -->
+      <div class="col-md-6 col-lg-6">
+        <div class="features-card text-center p-4 shadow-sm rounded-4 h-100">
+          <div class="icon-wrapper mb-3 text-success">
+            <i class="bi bi-heart-pulse fs-1"></i>
+          </div>
+          <h3 class="fw-semibold">Berat & Tinggi Ideal</h3>
+          <p class="text-muted">
+            Hitung berat dan tinggi badan idealmu untuk menjaga keseimbangan tubuh dan pola hidup yang lebih sehat.
+          </p>
+          <div class="image-container mt-3">
+            <img src="{{ asset('assets/img/illustration/illustration-6.png') }}" alt="Badan Ideal" class="img-fluid rounded-3">
+          </div>
+        </div>
+      </div>
+
+      <!-- Menstrual Prediction -->
+      <div class="col-md-6 col-lg-6">
+        <div class="features-card text-center p-4 shadow-sm rounded-4 h-100">
+          <div class="icon-wrapper mb-3 text-danger">
+            <i class="bi bi-calendar-heart fs-1"></i>
+          </div>
+          <h3 class="fw-semibold">Prediksi Menstruasi</h3>
+          <p class="text-muted">
+            Catat dan prediksi siklus menstruasimu dengan mudah. Dapatkan pengingat dan tips menjaga kesehatan reproduksi.
+          </p>
+          <div class="image-container mt-3">
+            <img src="{{ asset('assets/img/illustration/illustration-7.png') }}" alt="Prediksi Haid" class="img-fluid rounded-3">
+          </div>
+        </div>
+      </div>
+
+      <!-- Zodiac Feature -->
+      <div class="col-md-6 col-lg-6">
+        <div class="features-card text-center p-4 shadow-sm rounded-4 h-100">
+          <div class="icon-wrapper mb-3 text-warning">
+            <i class="bi bi-stars fs-1"></i>
+          </div>
+          <h3 class="fw-semibold">Zodiak & Kepribadian</h3>
+          <p class="text-muted">
+            Temukan karakter unikmu berdasarkan zodiak dan pelajari bagaimana pengaruhnya terhadap hubungan dan kesehatanmu.
+          </p>
+          <div class="image-container mt-3">
+            <img src="{{ asset('assets/img/illustration/illustration-8.png') }}" alt="Zodiak" class="img-fluid rounded-3">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- /Features Section -->
 
 
     <!-- Testimonials Section -->
@@ -397,116 +358,86 @@
     </section><!-- /Testimonials Section -->
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+   <section id="pricing" class="pricing section">
 
-      <!-- Section Title -->
-      <div class="container section-title">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title">
+    <h2>Paket Layanan</h2>
+    <p>Pilih paket yang sesuai dengan kebutuhanmu untuk menjaga keseimbangan pikiran dan tubuh.</p>
+  </div>
+  <!-- End Section Title -->
 
-      <div class="container">
+  <div class="container">
+    <div class="row justify-content-center g-4">
 
-        <div class="row justify-content-center g-4">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-card starter">
-              <div class="plan-header">
-                <h3 class="plan-name">Starter</h3>
-                <p class="plan-description">Perfect for individuals and small projects getting started.</p>
-              </div>
-              <div class="pricing-display">
-                <div class="price">
-                  <span class="currency">$</span>
-                  <span class="amount">19</span>
-                  <span class="period">/mo</span>
-                </div>
-              </div>
-              <div class="features-list">
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>5 Projects</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>10GB Storage</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Email Support</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Basic Analytics</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>SSL Certificate</span>
-                </div>
-              </div>
-              <a href="#" class="btn-plan">Get Started</a>
-            </div>
-          </div><!-- End Starter Plan -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-card professional featured">
-              <div class="plan-header">
-                <div class="featured-badge">Most Popular</div>
-                <h3 class="plan-name">Professional</h3>
-                <p class="plan-description">Ideal for growing businesses and teams that need more power.</p>
-              </div>
-              <div class="pricing-display">
-                <div class="price">
-                  <span class="currency">$</span>
-                  <span class="amount">49</span>
-                  <span class="period">/mo</span>
-                </div>
-              </div>
-              <div class="features-list">
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>25 Projects</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>100GB Storage</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Priority Support</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Advanced Analytics</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Team Collaboration</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Custom Integrations</span>
-                </div>
-              </div>
-              <a href="#" class="btn-plan">Start Free Trial</a>
-            </div>
-          </div><!-- End Professional Plan -->
-
-
-        </div>
-
-        <div class="row justify-content-center mt-5">
-          <div class="col-lg-8 text-center">
-            <div class="pricing-footer">
-              <p class="guarantee-text">30-day money-back guarantee • No setup fees • Cancel anytime</p>
-              <p class="contact-text">Need a custom plan? <a href="#">Contact our sales team</a></p>
+      <!-- Free Plan -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing-card starter">
+          <div class="plan-header">
+            <h3 class="plan-name">Gratis</h3>
+            <p class="plan-description">Nikmati fitur dasar untuk mengenal diri dan kesehatanmu.</p>
+          </div>
+          <div class="pricing-display">
+            <div class="price">
+              <span class="currency">Rp</span>
+              <span class="amount">0</span>
+              <span class="period">/bulan</span>
             </div>
           </div>
+          <div class="features-list">
+            <div class="feature"><i class="bi bi-check2"></i> Tes MBTI</div>
+            <div class="feature"><i class="bi bi-check2"></i> Tes Zodiak</div>
+            <div class="feature"><i class="bi bi-check2"></i> Hitung BMI (Berat & Tinggi Badan Ideal)</div>
+            <div class="feature"><i class="bi bi-check2"></i> Akses Hasil Dasar</div>
+          </div>
+          <a href="#" class="btn-plan">Mulai Sekarang</a>
         </div>
-
       </div>
+      <!-- End Free Plan -->
 
-    </section><!-- /Pricing Section -->
+      <!-- Premium Plan -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing-card professional featured">
+          <div class="plan-header">
+            <div class="featured-badge">Paling Populer</div>
+            <h3 class="plan-name">Premium</h3>
+            <p class="plan-description">Dapatkan analisis lengkap dan fitur kesehatan tambahan hanya dengan harga terjangkau.</p>
+          </div>
+          <div class="pricing-display">
+            <div class="price">
+              <span class="currency">Rp</span>
+              <span class="amount">9.000</span>
+              <span class="period">/bulan</span>
+            </div>
+          </div>
+          <div class="features-list">
+            <div class="feature"><i class="bi bi-check2"></i> Semua fitur Gratis</div>
+            <div class="feature"><i class="bi bi-check2"></i> Prediksi Siklus Haid</div>
+            <div class="feature"><i class="bi bi-check2"></i> Rekomendasi Pola Makan Sehat</div>
+            <div class="feature"><i class="bi bi-check2"></i> Riwayat Tes & Statistik Lengkap</div>
+            <div class="feature"><i class="bi bi-check2"></i> Dukungan Prioritas</div>
+          </div>
+          <a href="#" class="btn-plan">Upgrade Sekarang</a>
+        </div>
+      </div>
+      <!-- End Premium Plan -->
+
+    </div>
+
+    <div class="row justify-content-center mt-5">
+      <div class="col-lg-8 text-center">
+        <div class="pricing-footer">
+          <p class="guarantee-text">Tanpa biaya tersembunyi • Bisa dibatalkan kapan saja</p>
+          <p class="contact-text">Butuh bantuan? <a href="#">Hubungi tim kami</a></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
 
     <!-- Faq Section -->
     <section id="faq" class="faq section">

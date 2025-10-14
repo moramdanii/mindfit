@@ -9,30 +9,25 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+  <li><a href="#hero" class="active">Beranda</a></li>
+  <li><a href="#about">Tentang</a></li>
+  <li class="dropdown">
+    <a href="#"><span>Fitur Kami</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+    <ul>
+      <li><a href="#mbti">Tes MBTI</a></li>
+      <li><a href="#ideal">Berat & Tinggi Badan Ideal</a></li>
+      <li><a href="#haid">Prediksi Haid</a></li>
+      <li><a href="#zodiak">Tes Zodiak</a></li>
+    </ul>
+  </li>
+  <li><a href="#pricing">Paket Layanan</a></li>
+  <li><a href="#contact">Kontak</a></li>
+  <li>
+    <button class="btn-login">Login</button>
+  </li>
+</ul>
 
-          <li><a href="#contact">Contact</a></li>
 
-        </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
