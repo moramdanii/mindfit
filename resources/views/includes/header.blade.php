@@ -1,9 +1,9 @@
 <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-     <a href="{{ url('/') }}" class="logo d-flex align-items-center">
-    <img src="{{ asset('assets/img/logo.png') }}" alt="MindFit Logo" class="img-fluid me-2" style="height: 80px; width: auto;">
-    </a>
+    <a href="{{ url('/') }}" class="logo d-flex align-items-center ps-0 ms-0">
+  <img src="{{ asset('assets/img/logo.png') }}" alt="MindFit Logo" class="img-fluid">
+</a>
 
 
 

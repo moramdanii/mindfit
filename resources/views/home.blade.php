@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('title', 'Mainfit - Kesehatan & Keseimbangan Diri')
+@section('title', 'MindFit - Kesehatan & Keseimbangan Diri')
 
 @section('content')
 
@@ -10,23 +10,24 @@
     <section id="hero" class="hero section">
 
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-content">
-              <h1>Transform Your <span>Digital Future</span></h1>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam.</p>
-              <div class="hero-actions justify-content-center justify-content-lg-start">
-                <a href="#services" class="btn-primary scrollto">Start Journey</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="hero-image">
-              <img src="assets/img/illustration/illustration-28.webp" class="img-fluid floating" alt="">
-            </div>
-          </div>
+  <div class="row align-items-center">
+    <div class="col-lg-6">
+      <div class="hero-content">
+        <h1>Pahami Pikiranmu <span>Rawat Tubuhmu</span></h1>
+        <p>Mind Fit membantumu mengenali diri dan menjaga keseimbangan antara pikiran serta tubuh untuk hidup lebih baik.</p>
+        <div class="hero-actions justify-content-center justify-content-lg-start">
+          <a href="#services" class="btn-primary scrollto">Start Journey</a>
         </div>
       </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="hero-image">
+        <img src="assets/img/illustration/illustration-28.png" class="img-fluid floating" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
 
     </section><!-- /Hero Section -->
 
@@ -85,111 +86,17 @@
 
     </section><!-- /About Section -->
 
-    <!-- Services Section -->
-    <section id="services" class="services section">
 
-      <!-- Section Title -->
+
+
+    <!-- Features Section -->
+    <section id="services" class="features section">
+
+        <!-- Section Title -->
       <div class="container section-title">
         <h2>Services</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-palette"></i>
-              </div>
-              <h3>Creative Design</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
-              <a href="service-details.html" class="service-link">
-                Learn More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-code-slash"></i>
-              </div>
-              <h3>Web Development</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-              <a href="service-details.html" class="service-link">
-                Learn More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-megaphone"></i>
-              </div>
-              <h3>Digital Marketing</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              <a href="service-details.html" class="service-link">
-                Learn More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-graph-up-arrow"></i>
-              </div>
-              <h3>Business Strategy</h3>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</p>
-              <a href="service-details.html" class="service-link">
-                Learn More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-shield-check"></i>
-              </div>
-              <h3>Security Solutions</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-              <a href="service-details.html" class="service-link">
-                Learn More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div><!-- End Service Card -->
-
-          <div class="col-lg-4 col-md-6">
-            <div class="service-card">
-              <div class="service-icon">
-                <i class="bi bi-headset"></i>
-              </div>
-              <h3>24/7 Support</h3>
-              <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
-              <a href="service-details.html" class="service-link">
-                Learn More
-                <i class="bi bi-arrow-right"></i>
-              </a>
-            </div>
-          </div><!-- End Service Card -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Services Section -->
-
-    <!-- Features Section -->
-    <section id="features" class="features section">
 
       <div class="container">
 
@@ -585,48 +492,6 @@
             </div>
           </div><!-- End Professional Plan -->
 
-          <div class="col-lg-4 col-md-6">
-            <div class="pricing-card enterprise">
-              <div class="plan-header">
-                <h3 class="plan-name">Enterprise</h3>
-                <p class="plan-description">Comprehensive solution for large organizations with specific needs.</p>
-              </div>
-              <div class="pricing-display">
-                <div class="price">
-                  <span class="currency">$</span>
-                  <span class="amount">99</span>
-                  <span class="period">/mo</span>
-                </div>
-              </div>
-              <div class="features-list">
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Unlimited Projects</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>1TB Storage</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>24/7 Phone Support</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Enterprise Analytics</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Advanced Security</span>
-                </div>
-                <div class="feature">
-                  <i class="bi bi-check2"></i>
-                  <span>Dedicated Account Manager</span>
-                </div>
-              </div>
-              <a href="#" class="btn-plan">Contact Sales</a>
-            </div>
-          </div><!-- End Enterprise Plan -->
 
         </div>
 
