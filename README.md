@@ -332,7 +332,7 @@ Jika Anda menemukan bug atau memiliki saran, silakan buat [Issue](https://github
 
 ---
 
-<p align="center">Made with ❤️ by Denngrh</p>
+<p align="center">Made with Denngrh, Moramdanii, MFajar</p>
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
